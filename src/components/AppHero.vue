@@ -17,7 +17,7 @@ export default {
 <style scoped>
 div {
    background: blue;
-   color: white;
+
    text-align: center;
    padding: 1rem;
 }

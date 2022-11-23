@@ -10,10 +10,15 @@ export default {
 </script>
 
 <template>
-   <div>
+   <div class="container">
       <AppTitle />
       <AppHero />
    </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+   max-width: 1100px;
+   margin: 0 auto;
+}
+</style>
