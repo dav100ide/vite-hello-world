@@ -1,18 +1,17 @@
 <script>
-import PageTitle from './components/PageTitle.vue';
+import AppTitle from './components/AppTitle.vue';
 
 export default {
-  components: {
-    PageTitle
-  }
-}
+   components: {
+      AppTitle,
+   },
+};
 </script>
 
 <template>
-  <div>
-    <PageTitle/>
-  </div>
+   <div>
+      <AppTitle />
+   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
